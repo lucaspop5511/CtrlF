@@ -1,21 +1,33 @@
 const searchInput = document.getElementById('searchInput');
 const pasteButton = document.getElementById('pasteButton');
+const subjectDropdown = document.getElementById('subjectDropdown');
 const resultsContainer = document.getElementById('resultsContainer');
-const filePath = './Answers.txt'; // Path to the text file
+const pageTitle = document.querySelector('h1');
 
-// Fetch the content of the Answers.txt file
-fetch(filePath)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Failed to load Answers.txt');
-    }
-    return response.text();
-  })
-  .then(data => {
-    const questionsData = parseData(data);
-    setupSearch(questionsData);
-  })
-  .catch(error => console.error(error));
+let currentFile = subjectDropdown.value.split('|')[0]; // Extract initial file
+let currentSubject = subjectDropdown.value.split('|')[1]; // Extract initial subject name
+
+// Update the page title based on the subject
+function updateTitle(subjectName) {
+  pageTitle.innerHTML = `Bafta - <span class="subject-title">${subjectName}</span>`;
+}
+
+
+// Function to fetch and parse the file
+function fetchFile(filePath) {
+  fetch(filePath)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to load ${filePath}`);
+      }
+      return response.text();
+    })
+    .then(data => {
+      const questionsData = parseData(data);
+      setupSearch(questionsData);
+    })
+    .catch(error => console.error(error));
+}
 
 // Parse the text file content into question-answer pairs
 function parseData(rawData) {
@@ -98,3 +110,17 @@ pasteButton.addEventListener('click', async () => {
     pasteButton.textContent = 'Paste';
   }
 });
+
+// Handle subject change
+subjectDropdown.addEventListener('change', (event) => {
+  const [filePath, subjectName] = event.target.value.split('|'); // Extract file and subject name
+  currentFile = filePath;
+  currentSubject = subjectName;
+
+  updateTitle(currentSubject); // Update the page title
+  fetchFile(currentFile); // Fetch and load new data
+});
+
+// Initial setup
+updateTitle(currentSubject);
+fetchFile(currentFile);

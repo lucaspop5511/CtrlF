@@ -9,9 +9,13 @@
 <body>
   <h1>Bafta</h1>
   <div class="search-container">
+    <select id="subjectDropdown">
+      <option value="PRW.txt|Proiectarea Siteurilor Web">PRW</option>
+      <option value="RC.txt|Retele de Calculatoare">RC</option>
+    </select>
     <input type="text" id="searchInput" placeholder="Search" autocomplete="off">
     <button id="pasteButton">Paste</button>
-  </div>
+  </div>  
   <div class="results" id="resultsContainer"></div>
   <script src="script.js"></script>
 </body>

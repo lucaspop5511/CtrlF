@@ -1,0 +1,73 @@
+(172.20.0.55) este (Selectati unul sau mai multe) : este un ip privat
+Dupa tipologia de transmisie retele de calculatoare se impart in : retele cu difuzare si retele punct la punct
+HUB-ul trimite pachetele primate pe un port, spre toate celelalte porturi : True
+Securitatea in retelele fara fir nu se poate asigura prin : 
+Comanda netstat in linie de comanda afiseaza : Conexiunile TCP/IP si diverse statistici
+Protocolul SMTP este un protocol pentru : Posta electronica
+Alocarea automata a ip-urilor in retea se face utilizand : DHCP
+Modelul ISO/OSI contine nivelurile : Legatura de date || Aplicatie || Transport || Prezentare || Retea || Fizic
+Adresele de clasa B sunt folosite pentru retele de pana la : 65534 de calculatoare
+Care dintre urmatoarele afirmatii de falsa? : MD5 este cel mai sigur protocol existent pe piata
+Antetul IP contine : Source Port || Destination Port
+Serviciul de transfer de fisier se bazeaza pe : Protocolul FTP
+Care este rolul DNS-ului intr o retea de calculatoare? : Contine lista IP-urilor pentru routerele direct conectate la retea
+In cadrul modelului ISO/OSI, bitii se regasesc in : Nivelul fizic
+Care dintre nivelurile modelului ISO/OSI defineste adresa logica : Retea
+Care dintre urmatoarele NU reprezinta un tip de atac? : Firewall
+Protocolul UDP : Rapid || Nesigur
+Urmatoarele afirmatii sunt adevarate : Retelele LAN sunt localizate intr o singura cladire sau pe o distanta de cativa km
+Modelul TCP/IP are urmatoarele nivele : Nivelul aplicatie, nicelul transport si nivelul internet
+Pentru o retea de 483 de calculatoare masca de retea este : 255.255.254.0
+TCP este un protocol neorientat pe conexiune : Fals
+UDP este un protocol neorientat pe conexiune : Adevarat
+Care din urmatoarele afirmatii este falsa? : MD5 este cel mai sigur protocol existent pe piata
+Protocolul utilizat pentru determinarea adresei IP a unei masini pe baza numelui de domeniu este : DNS
+Este posibil pentru un router sa functioneze ca si switch, conectand 7 calculatoare? : Da, insa doar daca are numarul potrivit de interfete
+RSA : Este o criptare asimetrica
+Ce reprezinta TTL? : Timpul cat poate exista un pachet IP, inainte de a fi distrus 
+Protocolul utilizat pentru determinarea adresei MAC a unei masini pe baza IP-ului este : ARP
+Care este rezultatul comenzii: ipconfig/ all : Afisarea adresei IP a calculatorului gazda || Afisarea Adresei IP a calculatorului “gateway” || Afisarea adresei MAC a calculatorului gazda
+La configurara manuala a ip-urilor intr-o retea locala este obligatoriu de configurat : NETMASK || GATEWAY || IP || DNS
+Ce reprezinta latimea de banda intr o retea de calculatoare? : Cantitatea de informatie care poate fi transferata intr un interval de timp
+Transformati din baza 16 in baza 10 nr A0 : 160
+Calculati in baza 16: 2E + 92 : C0
+Ce este o adresa IP? : Un identificator unic pentru un dispozitiv intr-o retea
+Care este scopul protocolului TCP? : Asigura o conexiune fiabila si ordonata intre doua dispozitive
+Ce inseamna NAT? : Network Address Translation
+Care este functia unui router? : Directioneaza pachetele de date intre retele diferite
+Ce este un subnet mask? : Un sablon care separa adresa IP in partea de retea si partea de host
+Ce protocol este utilizat pentru alocarea dinamica a adreselor IP? : DHCP
+Ce este un firewall? : Un sistem de securitate care controleaza traficul de retea pe baza unor reguli prestabilite
+Care este diferenta dintre switch si hub? : Un switch trimite datele doar catre dispozitivul destinat, in timp ce un hub trimite datele catre toate dispozitivele din retea
+Ce este o retea LAN? : Local Area Network, o retea care acopera o zona geografica mica, precum un birou sau o cladire
+Ce inseamna VPN? : Virtual Private Network
+Care este rolul protocolului DNS? : Traduce numele de domenii in adrese IP
+Ce este o adresa MAC? : Un identificator unic atribuit interfetei de retea a unui dispozitiv
+Ce inseamna QoS in retele? : Quality of Service, un mecanism care prioritizeaza anumite tipuri de trafic de retea
+Ce este un pachet de date? : O unitate de date formatata pentru a fi transmisa printr-o retea
+Care este scopul protocolului ICMP? : Utilizat pentru trimiterea mesajelor de control si erori in retea
+Ce este o retea WAN? : Wide Area Network, o retea care acopera o zona geografica larga
+Ce inseamna SSL/TLS? : Protocoale pentru securizarea comunicatiilor pe internet
+Care este functia unui proxy server? : Intermediaza cererile intre un client si un server, oferind diverse functionalitati precum cache si filtrare
+Ce este un SSID? : Service Set Identifier, numele unei retele wireless
+Ce inseamna PoE in retele? : Power over Ethernet, o tehnologie care permite alimentarea dispozitivelor prin cablul de retea
+Care este rolul protocolului ARP? : Asociaza adresele IP cu adresele MAC in retea.
+Ce este un VLAN? : O retea locala virtuala care separa dispozitivele intr-o retea fizica.
+Ce face comanda ping? : Testeaza conectivitatea dintre doua dispozitive din retea.
+Care este diferenta dintre IPv4 si IPv6? : IPv4 foloseste adrese pe 32 de biti, iar IPv6 foloseste adrese pe 128 de biti.
+Ce este un DNS forwarder? : Un server care trimite cererile DNS catre alte servere DNS.
+Care este scopul protocolului HTTPS? : Ofera comunicatii securizate pe internet.
+Ce este o adresa IP publica? : O adresa accesibila direct pe internet.
+Ce este o adresa de broadcast? : O adresa utilizata pentru a trimite date tuturor dispozitivelor dintr-o retea.
+Ce este MTU? : Maximum Transmission Unit, dimensiunea maxima a unui pachet care poate fi transmis intr-o retea.
+Ce este un port in retelele de calculatoare? : Un identificator pentru servicii sau aplicatii care ruleaza pe un dispozitiv.
+Care este functia protocoalelor de rutare? : Determina cele mai bune cai pentru transmiterea datelor in retea.
+Ce este o adresa IP rezervata? : Adrese speciale care nu pot fi utilizate pentru comunicatii publice (de exemplu, 127.0.0.1).
+Ce este o retea mesh? : O retea in care fiecare nod este conectat la mai multe alte noduri pentru redundanta.
+Ce este un gateway? : Un punct de acces care conecteaza doua retele diferite.
+Ce este encapsularea? : Procesul de impachetare a datelor intr-un format utilizabil pentru transmisie.
+Care este rolul unui AP (Access Point)? : Permite dispozitivelor wireless sa se conecteze la o retea cablata.
+Ce este o adresa IP statica? : O adresa IP atribuita manual unui dispozitiv.
+Ce este un NAT loopback? : Permite accesarea serviciilor locale folosind adresa IP publica.
+Ce face protocolul POP3? : Permite descarcarea e-mailurilor de pe un server.
+Ce este sniffing-ul de pachete? : Capturarea si analiza traficului de date intr-o retea.
