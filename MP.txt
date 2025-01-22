@@ -1,0 +1,57 @@
+Care din urmatoarele afirmatii sunt adevarate intr-o aplicatie ASP .NET Core realizata cu pagini Razor? : Autorizarea se refera la procesul care permite anumite actiuni unui utilizator autentificat || In aceeasi aplicatie putem avea pagini cu acces anonim si pagini cu acces autorizat
+Care din urmatoarele declanseaza executia imediata pentru interogarile LINQ? : Apelul metodei ToList() || Apelul metodei ToArray() || Apelul metodei ToDictionary()
+Care din urmatoarele directive Razor indica clasa utilizata pentru transmiterea de date? : @model
+Care din urmatoarele reprezinta eveniminete la nivel de aplicatie intr-o aplicatie WPF? : SessionEnding || Activated || DispatcherUnHandledException
+Care din urmatoarele afirmatii este adevarata referitor la Validation Message TagHelper? : Este utilizat cu atributul asp-validation-for a unui element HTML || Afiseaza un mesaj de validare pentru proprietatea aferenta || Este utilizat dupa un tag helper input pentru aceasi propietate
+Care din urmatoarele metode le utilizam pentru a gestiona ciclul de viata al unei aplicatii Xamarin.Forms? : OnStart || OnSleep
+WPF utilizeaza evenimente _______ pentru a invoca handlere existente la diverse niveluri in arborele de obiecte al aplicatiei : Rutate
+Intr-o aplicatie WPF, care din urmatoarele afirmatii sunt adevarate : Argumentele sunt partajate intre evenimente de tip tunel si cele de tip bubbling || Evenimentele de tip bubbling permit unui grup complex de obiecte sa se comporte ca un singur obiect
+Care din urmatoarele nu reprezinta o adnotare in Entity Framework? : Required
+Care din urmatoarele afirmatii sunt adevarate referitoare la serviciile REST? : Raspunsul primit de la server in urma unei cereri este o resursa in format .json || Raspunsul primit de la server in urma unei cereri este o resursa in format .xml si cod executabil. || Raspunsul unei cereri va fi o copie din cache daca exista un cache valid
+Care din urmatoarele afirmatii este adevarata referitor la aplicatiile Xamarin.Forms multi-platforma? : Clasa App este responsabila pentru instatierea primei pagini care va fi afisata de aplicatie pe fiecare plataforma || Fiecare proiect specific platformei pe care ruleaza reprezinta instructiuni care defines functionalitatile aplicatiei
+Care din urmatoarele afirmatii nu este adevarata referitor la mecanismul ASP .NET dependency injection? : Dependency injection ofera o cuplare puternica a componentelor din aplicatie
+Care din urmatoarele reprezinta tipuri de data Bindig in WPF? : OneWay || OneWaytoSource || TwoWay
+Care din urmatoarele afirmatii sunt adevarate referitor la navigarea intre paginile unei aplicatii Xamarin.Forms? : Cand utilizatorul se intoarce la pagina anterioara, ultima pagina este scoasa dintr-o stiva || O pagina modala poate naviga doar catre o pagina modala
+Care din urmatoarele afirmatii nu este adevarata? : Comenzile WPF un pot fi dezactivate
+In Xamarin.Forms, pagina de tip MasterDetail poate avea unul din urmatoarele comportamente posibile : Split sau Popover
+Care din urmatoarele afirmatii este adevarata : Tag Helpers foloses limbaj C# || Experienta de dezvoltare cu Tag Helpers este similara cu HTML || Tag Helpers permit codului de tip server-side sa participle la crearea si afisarea elementelor HTML
+Intr-aplicatie WPF, daca utilizam ________ controalele copil sunt pozitionate in ordine de la stanga ladreapta si apoi pe linia urmatoare atunci cand exista mai multe controale decat spatiu existent : WrapPanel
+Care din urmatoarele afirmatii sunt adevarate intr-o aplciatie WPF? : Un delegate specifica tipul de return al metodei pe care o referentiaza || Tipul de return al unui delegate poate sa difere de tipul de return al metodei care o referentiaza
+In Xamarin.Forms cand utilizam Flyout Page, pagina Detail poate avea unul dintre urmatoarele comportamente posibile : Split sau Popover
+Care din urmatoarele afirmatii sunt false referitor la un stil WPF? : Pentru a conditiona aplicarea unor stiluri in functie de existenta unor evenimente utilizeaza triggere
+Care este clasa de baza pe care o mostenesc elementele de interfata din WPF? : Control
+In aplicatia .NET MAUI, o clasa Shell poate contine elementele : TabBar || ShellContent
+Care dintre urmatoarele afirmatii sunt adevarate despre DataBinding? : Ofera aplicatiei o metoda consistenta de a gasi si interactiona cu datele || Cand datele din sursa de date isi schimba valoarea, elementele care sunt link-uite (legate) acelor date se schimba automat || Cand datele sunt schimbate in elemetele de interfata, sursa datelor poate sa se schimbe automat pentru a reflecta schimbarile
+In aplicatiile facute cu Razor Pages directiva addTagHelper : Este adaugata in _ViewImports.cshtml file || Are efectul ca TagHelper-ii devin disponibili/vizibili in paginile aplicatiei
+Care dintre urmatoarele afirmatii sunt adevarate privind executia interogarile LINQ? : Executia amanata se refera la fatul ca interogarea este executata cand variabila tipului interogarii este iterata || Executia imediata se refera la faptul ca interogarea este executata cand metoda ToArray este apelata
+In EF ca sa ai o relatie completa intre doua entitati : Definim navigation properties in entitatea principala si in cea dependenta si o cheie straina in entitatea dependenta
+Care dintre afirmatiile urmatoare sunt adevarate privind extensia XAML markup? : Este o cale de a exprima atributul unui element || Valoarea atributului anexat (enclosed) foloseste simbolurile {} este o extensie XAML markup
+Care dintre afirmatiile urmatoare sunt adevarate privind Behaviours in .NET MAUI? : Pot fi folosite pentru a crea reguli de validare || Pentru a crea Behaviours trebuie sa suprascriem (override) metoda OnAttachedTo si metoda OnDetachingFrom
+Care din urmatoareele tipuri de autorizari pot fi folosite intr-o aplicatie .NET Core? : Role-based authorization || Autorizarea bazata pe Authorize attribute || Autorizarea pana la conventie
+Care dintre urmatoarele afirmatii sunt adevarate referitor la aplicatiile .NET MAUI? : Fisierul AppShell.xaml defineste ierarhia vizuala si a aplicatiei
+Navigation URLs in aplicatiile .NET MAUI pot contine : Query parameters || A route from the hierachy || A details page
+Care dintre urmatoarele nu este o adnotare in Entity Framework? : PrimaryKey
+Care dintre urmatoarele afirmatii sunt adevarate despre Razor Pages? : Pagina Layout aduce o privire unitara pentru toata aplicatia || @RenderBody() placeholder allows displaying specific content for each page
+Care dintre urmatoarele afirmatii sunt adevarate despre REST services? : Raspunsul primit de la server urmand o cerere este o resursa in format .json || Raspunsul unei cereri va fi copiat din cache daca exista cache valid
+Care dintre urmatoarele reprezinta starile entitatilor in Entity Framework? : Detached || Unchanged || Added
+Care dintre urmatoarele afirmatii sunt adevarate privind navigarea in aplicatiile .Net Maui? : Navigarea este facuta invocand metoda GoToAsync || Navigarea este facuta invocand metoda PushAsync
+Care dintre urmatoarele afirmatii sunt adevarate privind DataBinding : Foloseste un event handler care transfera datele de la un obiect la altul || DataBinding targheteaza obiectele care pot fi obiecte UI
+Care dintre urmatoarele afirmatii sunt adevarate in Entity Framework privind incarcarea datelor in entitati? : Este apelata incarcarea Eager (Eager loading) cand o interogare pentru o anumita entitate incarca entitati asociate ca parte si aceleasi interogari || Eager test se efectueaza folosind metoda Include()
+Care dintre urmatoarele afirmatii sunt adevarate cand folosim Entity Framework : Salvarea inregistrarii in baza de date este facuta cand metoda SaveChanges() este apelata
+Pentru o aplicatie WPF, care atribut referentiaza un namespace in fisierul XAML? : Xmlns
+Care din urmatoarele reprezinta manageri de continut in WPF? : Canvas || Grid || WrapPanel
+Care din urmatoarele afirmatii este adevarata referitor la XAML? : Separa designul de logica aplicatiei
+Care din urmatoarele afirmatii este adevarata? : extensible Application Markup Language este un limbaj declarativ || fiecare element din XAML reprezinta o clasa in .NET || atributele intr-un fisier XAML reprezinta o proprietate, metoda sau eveniment in cadrul unei clase .NET
+Care din urmatoarele afirmatii sunt adevarate referitor la pagina Razor : pagina Layout furnizeaza un Layout unitar pentru intreaga aplicatie || pagina Layout permite containerului HTML pentru layout sa fie specificat intr-un singur loc || pagina Layout permite containerului HTML pentru layout sa fie utilizat pentru pagini multiple
+Care sunt tipurile de data binding din WPF? : OneWay || TwoWay || OneWayToSource || OneTime
+Obiectele de tipul ICollectionView suporta : Sortare || Filtrare || Grupare
+Care clasa este utlizata pentru data binding in WPF? : Binding
+Evenimentele suportate in WPF sunt : Evenimente directe || Evenimente de tip bubbling || Evenimente de tip tunel
+Care este prima directiva care apare intr-o pagina Razor? : @page
+Care din urmatoarele nu reprezinta un mecanism de gestiune a starii in ASP.Net Core? : QueryState
+Care din urmatoarele afirmatii sunt adevarate intr-o aplicatie ASP.NET Core realizata cu pagini Razor? : Autorizarea se refera la procesul care permite anumite actiuni unui utilizator neautentificat || Autorizarea se refera la procesul care permite anumite actiuni unui utilizator autentificat || In aceeasi aplicatie putem avea pagini cu acces anonim si pagini cu acces autorizat
+Care din urmatoarele declanseaza executia imediata pentru interogarile LINQ? : Apelul metodei ToDictionary() || Apelul metodei ToArray() || Apelul metodei ToList()
+Care din urmatoarele directive Razor indica clasa utilizata pentru transmiterea de date? : @model
+Care din urmatoarele reprezinta evenminete la nivel de aplicatie intr.-o aplicatie WPF? : SessionEnding || Activated || DispatcherUnHandledException
+Care din urmatoarele afirmatii este adevarata referitor la Validation Message TagHelper? : Este utilizat cu atributul asp-validation-for a unui element HTML || Afiseaza un mesa de validare pentru proprietatea aferenta || Este utilizat dupa un tag helper input pentru aceasi propietate
+Care din urmatoarele método le utilizam pentru a gestiona ciclul de viata al unei aplicatii Xamarin.Forms? : OnStart || OnSleep 

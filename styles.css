@@ -22,7 +22,7 @@ body {
   /* Style for the dropdown */
   .search-container select {
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 5px;
@@ -30,6 +30,8 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    background-color: #100d04;
+    color: #fff;
   }
 
   .search-container select:focus option,
@@ -55,12 +57,24 @@ body {
     cursor: pointer;
     background-color: #100d04;
     color: #fff;
+    transition: box-shadow .2s ease;
   }
   
   .search-container button:hover {
     background-color: #00000000;
     color: black;
     border: 1px solid black;
+  }
+
+  .search-container button.clear {
+    background-color: #fff;
+    color: #100d04;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.358);
+  }
+
+  .search-container button.clear:hover {
+    border: 1px solid black;
+    box-shadow: inset 2.2px 2.2px 5px rgba(0, 0, 0, 0.358);
   }
   
   .results {
@@ -100,4 +114,12 @@ body {
   .answer li {
     margin-bottom: 5px;
   }
+
+  .no-results {
+    color: rgb(161, 161, 161); /* Example style */
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
   

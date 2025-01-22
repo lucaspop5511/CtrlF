@@ -9,7 +9,7 @@ let currentSubject = subjectDropdown.value.split('|')[1]; // Extract initial sub
 
 // Update the page title based on the subject
 function updateTitle(subjectName) {
-  pageTitle.innerHTML = `Bafta - <span class="subject-title">${subjectName}</span>`;
+  pageTitle.innerHTML = `Bafta! - <span class="subject-title">${subjectName}</span>`;
 }
 
 
@@ -52,32 +52,32 @@ function setupSearch(questionsData) {
   function renderResults(filteredQuestions) {
     resultsContainer.innerHTML = '';
     if (filteredQuestions.length === 0) {
-      resultsContainer.innerHTML = '<p>No results found.</p>';
-      return;
+        resultsContainer.innerHTML = '<p class="no-results">No results found.</p>';
+        return;
     }
 
     filteredQuestions.forEach((item, index) => {
-      const resultDiv = document.createElement('div');
-      resultDiv.className = 'result';
+        const resultDiv = document.createElement('div');
+        resultDiv.className = 'result';
 
-      // Generate the HTML for multiple answers
-      const answersHTML = item.answers
-        .map(answer => `<li>${answer}</li>`)
-        .join('');
+        // Generate the HTML for multiple answers
+        const answersHTML = item.answers
+            .map(answer => `<li>${answer}</li>`)
+            .join('');
 
-      resultDiv.innerHTML = `
-        <div class="question">${item.question}</div>
-        <ul class="answer" id="answer-${index}">${answersHTML}</ul>
-      `;
+        resultDiv.innerHTML = `
+            <div class="question">${item.question}</div>
+            <ul class="answer" id="answer-${index}">${answersHTML}</ul>
+        `;
 
-      resultDiv.addEventListener('click', () => {
-        const answerDiv = resultDiv.querySelector('.answer');
-        answerDiv.classList.toggle('visible');
-      });
+        resultDiv.addEventListener('click', () => {
+            const answerDiv = resultDiv.querySelector('.answer');
+            answerDiv.classList.toggle('visible');
+        });
 
-      resultsContainer.appendChild(resultDiv);
+        resultsContainer.appendChild(resultDiv);
     });
-  }
+}
 
   // Handle input change
   searchInput.addEventListener('input', (event) => {
@@ -100,6 +100,7 @@ pasteButton.addEventListener('click', async () => {
       searchInput.value = text;
       searchInput.dispatchEvent(new Event('input')); // Trigger input event to update results
       pasteButton.textContent = 'Clear';
+      pasteButton.classList.add('clear'); // Add the 'clear' class
     } catch (err) {
       console.error('Failed to paste text: ', err);
       alert('Unable to paste text. Please allow clipboard permissions.');
@@ -108,6 +109,7 @@ pasteButton.addEventListener('click', async () => {
     searchInput.value = ''; // Clear the input field
     searchInput.dispatchEvent(new Event('input')); // Trigger input event to update results
     pasteButton.textContent = 'Paste';
+    pasteButton.classList.remove('clear'); // Remove the 'clear' class
   }
 });
 
