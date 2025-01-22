@@ -1,0 +1,960 @@
+Care din urmâtoarele nu este o strategie de alocare a reatiilor nefragmentate? : 
+a. Replicarea acestora pe fiecare sit in parte
+b. Nu se poate proiecta un sistem distribuit care sâ continá chiar si
+partial relatii nefragmentate
+c. Mentinerea lor in acele noduri unde se utilizeazã cel mai des
+ 
+Care din urmätoarele NU reprezintá o etapà a procesârii interogärilor in cadrul sistemelor de baze de date distribuite?
+a. Descompunerea interogárilor
+b. Analiza cererii globale
+c. Localizarea datelor
+d. Optimizarea cererilor locale
+e. Optimizarea cererilor globale
+ 
+Care din urmätoarele NU reprezintà o caracteristicà a Sistemelor federative?
+a. Heterogenitatea
+b. Partajarea resurselor
+c. Autonomia
+d. Distribuirea
+ 
+Care dintre următoarele NU reprezintà operatii in cadrul cubului de date?
+a. Detalierea
+b. Transarea (Slicing)
+c. Pivotarea
+d. Märunfirea (Dicing)
+e. Consolidarea/Sumarizarea
+f. Defrisarea/Tunderea (Pruning)
+ 
+Care dintre următorii termeni NU sunt specifici pentru bazele de date distribuite?
+a. Fragmentare 
+b. Alocare
+c. Replicare
+d. Redundanţă
+ 
+Care dintre următorii termeni nu este specific proiectării sistemelor de baze de date distribuite?
+a. INTEROGARE 
+b. REPLICARE
+c. ALOCARE
+d. PARTIŢIONARE
+ 
+Care dintre următoarele NU reprezintă un principiu a lui C.J. Date referitor la sistemele distribuite?
+a. Gestionarea distribuită a tranzacţiilor 
+b. Independenţa de hardware
+c. Independenţa de software
+d. Prelucrarea distribuită a interogărilor
+
+Care dintre următoarele elemente NU apare în convenţia numelor de obiecte în strategia abordată pentru gestiunea catalogului sistemului R*?
+a. –       Identificatorul utilizatorului care a creat obiectul
+b. –       Denumirea locală a obiectului
+c. –       Identificatorul sitului în care a fost stocat iniţial obiectul
+d. –       Data de creare a obiectului 
+e. –       Identificatorul sitului în care s-a făcut operaţia de creare
+ 
+Care din urmätoarele NU reprezintà un protocol de control al
+accesului concurent in medii distribuite?
+a. Protocolul 2PL centralizat
+b. Protocolul 2PL sincron
+c. Protocolul de zâvorâre al majoritâtii
+d. Protocolul 2PL de copie primarã
+e. Protocolul 2PL distribuit
+ 
+10. Care din elementele de mai jos nu este o caracteristicà a fragmentärii?
+a. Caracterul disjunct
+b. Refacerea relatiei initiale
+c. Contingentarea
+d. Completitudinea
+
+La sistemele de baze de date centralizate, subsistemul tranzactional al unui SGBD NU are in componentá:
+a. Administratorul de centralizare
+b. Administratorul de refacere
+c. Planificator
+d. Administratorul de buffere
+e. Administratorul de tranzactii
+ 
+Pe lângă componentele subsistemului tranzacţional al unui SGBD dintr-un sistem centralizat, în cel distribuit mai avem:
+a. Administratorul de tranzacţii
+b. Planificatorul
+c. Administratorul de tranzacţii global
+d. Administratorul de buffere 
+
+In desenul de mai sus avem un exemplu de ...
+a. numai fragmente verticale
+b. numai fragmente orizontale
+c. fragmente verticale partitionate orizontal
+d. fragment orizontale partitionate vertical
+
+In desenul de mai sus avem un exemplu de ...
+a. fragmente orizontale partiţionate vertical
+b. numai fragmente verticale
+c. numai fragmente orizontale
+d. fragmente verticale partiţionate orizontal
+ 
+Wrapper-ul este un termen care se leagã in principal de .
+a. Independenta de sistemul SGBD
+b. Independenta de retea
+c. Independenta de hardware
+d. Independenta de sistemul de operare
+ 
+Refacerea relatiei initiale din fragmente verticale se face prin intermediul operatorului de:
+a. Uniune
+b. Selectie
+c. Proiectie
+d. Produs cartezian
+e. Intersectie
+f. Reuniune
+ 
+Refacerea relatiei initiale din fragmente orizontale se face prin intermediul operatorului de
+a. Proiectie
+b. Intersectie
+c. Reuniune
+d. Uniune
+e. Produs cartezian
+f. Selectie
+ 
+Desenul de mai sus este reprezentarea intuitivã a unui/unei:
+a. Baze de date locale
+b. Sistem de baze de date distribute
+c. Sistem cu prelucrare distribuità
+ 
+Care din urmätoarele sunt nume valide de identificatori PL/SQL?
+a. Nu_Stiu
+b. 1_Aparitie
+c. Variabila ce contine_ numarul de_ ani
+d. Nume si Prenume
+e. Procent%
+f. Nume-Prenume
+ 
+Care din urmätoarele nu reprezintà un beneficiu al limbajul PL/SQL?
+a. Optimizarea blocurilor anonime
+b. Dezvoltarea programarii modularizate (structuri bloc)
+c. Integrarea constructiilor procedurale cu limbajul SQL
+d. Tratarea exceptillor
+e. Integrarea cu produsele Oracle
+f. Portabilitate (SO, platforme diferite)
+g. Sporirea performantei in exploatare
+
+Care este nivelul de replicare in cadrul unui sistem de baze de date distribute ce are urmätoarele caracteristici? Costurile de comunicatie si de stocare sunt relativ reduse. Caracterul local al referintei, securitatea, fiabilitatea si disponibilitatea sunt apropiate de maxim.
+a. Baze de date replicate integral
+b. Baze de date partitionate, fragmentate sau nereplicate
+c. Baze de date centralizate
+d. Baze de date replicate partial sau selectiv
+ 
+Care este nivelul de replicare in cadrul unui sistem de baze de date distribute ce are urmatoarele caracteristici? Caracterul local al referintei, disponibilitatea, securitatea si fiabilitatea sunt maxime. Probleme - costul ridicat al echipamentelor de stocare, comunicatia aglomerata in caul actualizárilor. Solute: utilizarea instantaneelor, adicà imagini ale bazei de date care se actualizeazà periodic : 
+a. Baze de date partitionate, fragmentate sau nereplicate
+b. Baze de date replicate integral
+c. Baze de date centralizate
+d. Baze de date replicate partial sau selectiv
+ 
+Care este nivelul de replicare in cadrul unui sistem de baze de date distribute ce are urmätoarele caracteristici? Caracterul local al referintei este cel mai scâzut; securitatea, fiabilitatea si disponibilitatea sunt scâzute si depind in cea mai mare másurá de nodul central. Costul comunicatiei este ridicat.
+a. Baze de date replicate integral
+b. Baze de date partitionate, fragmentate sau nereplicate
+c. Baze de date centralizate
+d. Baze de date replicate partial sau selectiv
+ 
+In PL/SQL, ce anume se defineste de câtre utilizator, se alocã acelor interogari care returneazà mai mult de o singurã linie gi are un nume personalizat?
+a. Un trigger
+b. Un cursor implicit
+c. Un package
+d. Un cursor explicit
+e. O variabilà de tip inregistrare
+ 
+In PL/SQL, ce anume se defineşte de către utilizator, se alocă acelor interogări care returnează mai mult de o singură linie şi are un nume personalizat?
+a. Un package 
+b. Un cursor implicit
+c. Un cursor explicit
+d. O variabilă de tip înregistrare
+e. Un trigger
+ 
+Ce este in PL/SQL o zoná de memorie gestionatá automat de serverul
+Oracle alocatà la executia unei instructiuni SQL de manipulare sau interogare ce returneazà o linie?
+a. Un cursor implicit
+b. Un package
+c. O variabilà de tip inregistrare
+d. Un trigger
+e. Un cursor explicit
+ 
+In legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?
+„Dezavantaj: necesită un trafic şi un control al integrităţii suplimentar; afectează şi autonomia siturilor prin această nevoie continuă de propagare a actualizărilor în fiecare sit”
+a. Replicare totală 
+b. Fragmentare
+c. Localizare centralizată
+ 
+In legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?
+„Nu este o soluţie prea agreată pe motivul că încalcă principiul autonomiei şi cel al independenţei faţă de un sit central. Fiabilitatea şi disponibilitatea sunt puse sub semnul întrebării”
+a. Replicare totală
+b. Fragmentare
+c. Localizare centralizată
+ 
+In legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?
+„Această abordare sporeşte performanţele de prelucrare la distanţă ale fragmentării, însă încalcă într-o anumită măsură şi independenţa de situl central. Problema actualizării catalogului se rezumă – spre deosebire de replicarea totală – la doar două cataloage.”
+a. Replicare totală
+b. Centralizată şi fragmentare
+c. Localizare centralizată
+ 
+In legătură cu gestiunea catalogului în cadrul sistemelor de baze de date distribuite, care abordare are aceste caracteristici?
+„Catalogul global reprezintă o reuniune a cataloagelor locale. Chiar dacă pentru principiul autonomiei şi cel al independenţei faţă de un nod central este o abordare acceptabilă, pentru conţinutul redundant, dar mai ales pentru prelucrarea telecerilor reprezintă o variantă inacceptabilă”
+a. Replicare totală
+b. Localizare centralizată
+c. Fragmentare
+ 
+Care din urmätoarele NU reprezintà o limitare a sistemelor de baze
+de date relationale?
+a. Reprezentarea precarã a entitàtilor din lumea realã
+b. Set redus de operatii
+c. Control insuficient al integritätii si mecanisme deficitare de gestionare a constrângerilor de intreprindere
+d. Gestionarea greoaie a interogärilor recursive
+e. Limitarea semantica
+f. Spatiul de memorie ocupat
+g. Structurá de date prea omogenã
+ 
+Care din urmätoarele NU reprezintà o etapá a procesului de descompunere a interogárilor in cadrul sistemelor de baze de date distribuite?
+a. Simplificarea
+b. Normalizarea
+c. Analiza semantica
+d. Restructurarea interogärilor
+e. Optimizarea interogärilor
+f. Analiza preliminarã
+ 
+Care din urmätoarele NU reprezintá o categorie de baze de date
+NoSQL?
+a. Key-Value-stores
+b. Document databases
+c. Graph
+d. Column-Oriented Databases
+e. Chart Databases
+ 
+Care din următoarele NU reprezintă o metodă de proiectare a fragmentării verticale?
+a. Gruparea atributelor
+b. Partiţionarea atributelor 
+c. Utilizarea predicatelor minterm
+ 
+Predicatele minterm sunt.
+a. conjunctia dintre un predicat simplu si negatia acestuia
+b. disjunctii de predicate simple sau negatii ale acestora
+c. conjunctii de predicate simple sau negatii ale acestora
+ 
+Predicatele minterm stau la baza proiectării:
+a. Acestea sunt folosite pentru alocare
+b. Fragmentării Orizontale 
+c. Fragmentării Verticale
+d. Acestea sunt folosite pentru replicare
+
+In cazul în care avem n predicate simple, câte predicate minterm diferite putem constitui?
+a. 2n
+b. 3n
+c. n2
+d. 2n
+ 
+In prelucrarea distribuită a interogărilor, problema este tratată
+a. Atât la nivel local, cât şi la nivel de server
+b. Doar la nivel global
+c. Atât la nivel global, cât şi local 
+d. Doar la nivel local
+ 
+Implementarea unui sistem de baze de date pe modelul unei
+agent de turism este un exemplu clasic de utilizare a:
+a. Bazelor de date centralizate
+b. Depozitelor de date
+c. Sistemelor distribuite
+d. Data mining-ului
+e. Bazelor de date federative
+ 
+„Pentru utilizator, sistemul distribuit trebuie sà arate" - si sà se
+comporte - „la fel cu unul nedistribuit" este
+a. Principiul transparentei
+b. Regula de aur pentru sisteme de baze de date distribuite
+c. Principiul distribuirii
+d. Principiul autonomiei locale
+ 
+Câte tipuri de exceptii pot fi gestionate de câtre limbajul PL/SQL?
+Answer: 3
+ 
+C.J. Date a formulat un număr de reguli pentru sistemele de baze de date distribuite. Acestea sunt în număr de:
+Answer: 12
+ 
+Care din următoarele anomalii este mai specifică sistemelor de baze de date distribuite?
+a. actualizarea pierdută
+b. dependenţa nefinalizată
+c. incoerenţei copiilor multiple 
+d. analiza inconsistentă
+ 
+Care din următoarele instrucţiuni SQL nu sunt admise în PL/SQL în mod direct?
+a. SELECT
+b. Instrucţiuni DML: INSERT, UPDATE şi DELETE + MERGE
+c. Instrucţiuni de control al tranzacţiilor: COMMIT, ROLLBACK, sau SAVEPOINT
+d. Instrucţiuni DDL: CREATE TABLE, ALTER TABLE, DROP TABLE
+ 
+Care din urmâtoarele instructiuni SQL sunt admise in PL/SQL in mod
+direct?
+a. Instructiuni DCL: GRANT, REVOKE
+b. Instructiuni DML: INSERT, UPDATE si DELETE + MERGE
+c. Instructiuni DDL: CREATE TABLE. ALTER TABLE. DROP TABLE
+ 
+Interfaţa vizuală oficială pentru MongoDB este …
+a. MongoDB Cloud Manager
+b. MongoDB Compass
+c. MongoDB Ops Manager
+d. MongoDB Enterprise Advanced
+e. MongoDB Atlas
+f. MongoDB Professional
+ 
+Motorul de stocare MMAP v1 din MongoDB are următoarele caracteristici, CU EXCEPŢIA:
+a. Asigură blocare la nivel de document
+b. Permite actualizarea in memoria virtuală
+c. Este motorul originar MongoDB 
+d. Asigură blocare la nivel de colecţie
+ 
+Care din proprietăţile de mai jos nu sunt specifice sistemelor de baze de date distribuite?
+a. Repartizarea fizică 
+b. Integrarea fizică
+c. Integrarea logică
+ 
+Care din următoarele NU reprezintă un nivel de replicare în cadrul bazelor de date distribuite?
+a. Baze de date partiţionate
+b. Baze de date replicate integral
+c. Baze de date modulare
+d. Baze de date replicate parţial sau selectiv
+ 
+Ce este limbajul PL/SQL?
+a. O extensie neprocedurală 3GL Oracle a limbajului SQL (4GL)
+b. O extensie procedurală 4GL Oracle a limbajului SQL (3GL)
+c. O extensie procedurală 3GL Oracle a limbajului SQL (4GL)
+ 
+Care din următorii operatorii nu există în cadrul framework-ului de agregare din MongoDB?
+a. $project
+b. $match
+c. $select
+d. $group
+e. $unwind
+f. $sort
+g. $out
+ 
+Sa se realizeze corespondenţa între clauzele comenzii SQL SELECT şi ale operatorilor framework-ului de agregare din MongoDB.
+ 
+SELECT
+
+Answer 1
+$project 
+JOIN
+ 
+Answer 2
+$unwind 
+WHERE
+ 
+Answer 3
+$match 
+COUNT
+
+Answer 4
+$sum:1 
+ORDER BY
+ 
+Answer 5
+$sort 
+HAVING
+ 
+Answer 6
+$match 
+SUM
+
+Answer 7
+$sum:$câmp 
+GROUP BY
+
+Answer 8
+$group 
+LIMIT
+ 
+Answer 9
+$limit 
+ 
+In PL/SQL operatorul de asociere “=>” nu se foloseşte în modul de pasare:
+a. Poziţional
+b. Nominal
+c. Combinat/Mixt
+ 
+Care din următoarele NU reprezintă o caracteristică pentru bazele de date NoSQL?
+a. Caching Integrat 
+b. Alocarea
+c. Replicarea
+d. Scheme dinamice
+e. Partiţionarea automată
+ 
+Principiul operării continue în cadrul sistemelor de baze de date distribuite se bazează pe următoarele proprietăţi:
+a. Disponibilitate şi fiabilitate
+b. Autonomie şi fiabilitate
+c. Transparenţă şi fiabilitate
+d. Disponibilitate, fiabilitate şi optimalitate
+
+“O colecţie de date integrate logic, însă repartizate fizic pe nodurile unei reţele de calculatoare” este definiţia pentru:
+a. O bază de date distribuită 
+b. Un sistem cu prelucrare distribuită
+c. O reţea de calculatoare
+ 
+„Extragerea datelor reprezintă descoperirea automată a unor tipare netriviale, anterior necunoscute şi potenţial folositoare, bine înrădăcinate în bazele de date.” este definiţia pentru:
+a. Baze de date distribuite 
+b. OLAP
+c. Baze de date centralizate
+d. Baze de date federative
+e. Data mining
+f. Cubul de date
+ 
+Sinteza, analiza şi consolidarea dinamică a unor volume vaste de date multidimensionale reprezintă:
+a. Prelucrarea analitică on-line
+b. OLTP
+c. Data mining
+d. Big data
+ 
+Ce este „Sinteza, analiza şi consolidarea dinamică a unor volume vaste de date multidimensionale”?
+a. Prelucrarea analitică on-line (OLAP)
+b. Analiza multivariată
+c. Prelucrarea tranzacţiilor on-line (OLTP) 
+d. Analiza stochastică
+e. Data mining-ul
+ 
+Care din următoarele obiective ale MongoDB/bazelor de date NoSQL sunt obligatorii?
+a. scheme flexibile
+b. eliminarea anomaliilor de actualizare
+c. eliminarea redundanţei
+d. schema bazei de date să fie în strânsă legătură cu logica de programare
+ 
+MongoDB poate folosi mai multe motoare de stocare? (True=DA, False=NU)
+True 
+False
+ 
+In MongoDB se pot insera mai multe documente într-o colecţie DINTR-O SINGURĂ COMANDĂ? (True=DA, False=NU)
+True 
+False
+ 
+Care din următoarele NU sunt motive în favoarea fragmentării?
+a. Controlul integrităţii 
+b. Uzanţa
+c. Securitatea
+d. Paralelismul
+ 
+Care din următoarele sunt dezavantaje legate de fragmentare?
+a. Uzanţa
+b. Controlul integrităţii
+c. Paralelismul 
+d. Securitatea
+ 
+Care din următoarele sunt dezavantaje legate de fragmentare?
+a. Securitatea
+b. Paralelismul
+c. Complexitatea proiectării 
+d. Uzanţa
+ 
+Care din următoarele sunt motive în favoarea fragmentării?
+a. Controlul integrităţii
+b. Paralelismul
+c. Complexitatea proiectării
+d. Performanţa
+ 
+In PL/SQL acest obiect poate returna unul sau mai mulţi parametri
+a. Declanşatorul
+b. Funcţia 
+c. Blocul anonim
+d. Procedura
+ 
+Care va fi efectul comenzii db.colectie.find({an:{$gt 1990, $lt 1995}},{titlu:1, _id:0} ).pretty()  în MongoDB?
+a. afişează doar titlul pentru publicaţiile dintre anii 1991 şi 1994
+b. afişează toate titlurile cu valoarea 1 şi id-ul 0 dintre anii 1990 şi 1995
+c. afişează toate titlurile publicate înainte de 1995 sau după 1990
+d. afişează doar titlul pentru publicaţiile dintre anii 1990 şi 1995
+e. find nu permite decât o singură pereche de acolade
+f. afişează toate titlurile cu valoarea 1 şi id-ul 0 dintre anii 1991 şi 1994
+ 
+Care va fi efectul comenzii db.colectie.find({$or:[{an:{$ne 1990}},{autor:{$eq "ion"}}]}).pretty() în MongoDB?
+a. afişează publicaţiile din 1990 ale autorului Ion 
+b. afişează atât publicaţiile autorului Ion, cât şi a celor care nu sunt din 1990
+c.afişează atât publicaţiile care nu sunt ale autorului Ion, cât şi a celor care nu sunt din 1990
+d.afişează publicaţiile autorului Ion, care nu sunt din 1990
+e.afişează atât publicaţiile autorului Ion, cât şi a celor care sunt din 1990
+
+Care va fi efectul comenzii db.colectie.find({"an":1990}, {titlu:0, _id:0}).pretty() în MongoDB?
+a. afişează titlul şi id-ul pentru publicaţiile din 1990
+b. find nu permite decât o singură pereche de acolade
+c. afişează toate titlurile cu valoarea şi id-ul 0 pentru publicaţiile din 1990 
+d. afişează toate campurile, excluzând doar titlul şi id-ul, pentru publicaţiile din 1990
+ 
+Care va fi efectul comenzii db.colectie.find({"an":1990}, {titlu:1, _id:0}).pretty() în MongoDB?
+a. find nu permite decât o singură pereche de acolade
+b. afişează toate titlurile cu valoarea 1 şi id-ul 0 pentru publicaţiile din 1990
+c. afişează doar titlul, chiar şi id-ul este exclus, pentru publicaţiile din 1990 
+d. afişează titlul şi id-ul pentru publicaţiile din 1990​
+ 
+Care va fi efectul comenzii db.colectie.find({titlu:{$regex: /^Amintiri\s*/}} )  în MongoDB?
+a. afişează publicaţiile ale căror prim cuvânt din titlu este „Amintiri” 
+b. afişează publicaţiile ale căror titlu se termină cu cuvântul „Amintiri”
+c. afişează publicaţiile care conţin în titlu cuvântul „Amintiri”
+d. afişează publicaţiile care nu conţin în titlu cuvântul „Amintiri”
+ 
+Care va fi efectul comenzii db.colectie.find({an:{$ne 1990}}).count()  în MongoDB?
+a. afişează numărul total de publicaţii din anul 1990
+b. afişează numărul total de publicaţii, cu excepţia celor din 1990
+c. find nu permite utilizarea împreună cu count
+d. afişează numărul de ani scurşi până în anul 1990
+e. afişează numărul de ani începând din anul 1990 până la data curentă
+ 
+In MongoDB indecşii unici sunt cei care …
+a. Returnează un singur document
+b. Se realizează pe baza unei singure chei 
+c. Au nume unic
+d. Conţin în comanda de creare opţiunea {unique:true}
+ 
+In cadrul unui set de replici din MongoDB, pot exista următoarele tipuri de noduri, dar nu şi
+a. Nodul arbitru
+b. Nodul întârziat/obişnuit 
+c. Nodul ascuns
+d. Nodul obişnuit (regular)
+e. Nodul progresiv
+ 
+In MongoDB, consistenţa la scriere este caracterizată de următoarele, dar nu şi de …
+a. Aplicaţia scrie concomitent pe nodul primar, dar şi pe cele secundare
+b. Citirile se pot efectua fie de pe acesta, fie de pe cele secundare
+c. Replicarea e asincronă
+d. Aplicaţia scrie întotdeauna pe nodul primar 
+e. Poţi efectua citirile de pe alte noduri, însă nu ai garanţia că ai citit valoarea actualizată
+ 
+In MongoDB, media şi numărul matricol fiind date scalare, comanda db.studenti.createIndex({media:-1, matricol:1}) are ca efect ...
+a. Crearea unui index geospatial
+b. Nu se creează indecşii în felul acesta
+c. Crearea unui index după numărul matricol, ignorându-se media 
+d. Crearea unui index compus
+e. Crearea unui index multiplu
+f. Crearea unui index simplu
+ 
+In MongoDB se realizează o operaţiune de actualizare, dar datorită unei erori de reţea nu se primeşte confirmarea efectuării operaţiunii în cauză. În ce condiţii reluarea actualizării nu afectează integritatea bazei de date?
+a. Atunci când actualizarea foloseşte operatorul $inc
+b. Atunci când actualizarea e realizată prin intermediul unei ştergeri şi inserări 
+c. Atunci când actualizarea se face relativ la valori curente ale cheilor
+ 
+In MongoDB sunt valabile următoarele afirmaţii despre indecşii multicheie, CU EXCEPŢIA:
+a. Nu se pot crea indecsi compusi daca avem mai mult de o cheie de tip array
+b. Se folosesc atunci când una din valorile cheilor este de tip array
+c. Se folosesc atunci când mai mult de una din valorile cheilor este de tip array 
+d. Dacă atunci când cream indexul, cheia sau cheile sunt doar valori scalare, atunci nu vom avea index multicheie, însă acesta se va transforma într-un astfel de index atunci când facem prima inserare/actualizare şi folosim un array în loc de valoare scalara la una dintre cheile de indexare
+ 
+In MongoDB, următoarele aserţiuni sunt adevărate, CU EXCEPŢIA:
+a. La procesul „electoral” participă majoritatea nodurilor iniţiale
+b. Dacă după cădere îşi revine, vechea replică primară va deveni replică secundară
+c. Un nod este replica primară, iar aplicaţia se conectează doar la acest nod
+d. În cazul în care replica primară cade, dintre cele rămase se alege altul ca fiind primar, celelalte fiind secundare 
+e. Dacă după cădere îşi revine, vechea replică primară o înlocuieşte pe cea actuală, cea din urmă devenind secundară
+f. Numărul minim de replici e 3
+ 
+Legat de modelarea relaţiilor arborescente în MongoDB, care din următoarele NU reprezintă un design-pattern cunoscut?
+a. Modelarea arborelui prin referenţierea părintelui
+b. Modelarea prin liste de ancestori
+c. Modelarea arborelui prin clasificarea zecimală a nodurilor
+d. Modelarea arborelui prin căi materializate
+e. Modelarea arborelui prin referenţierea copilului
+f. Modelarea arborelui prin submulţimi de coordonate 
+g. Modelarea arborelui prin referenţierea nodurilor-frunză
+
+Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „mai mulţi” în colecţia „unu” (ex. Produse încuibărite în Categorii), care din următoarele aserţiuni NU este adecvată?
+a. Actualizările implică şi operaţii specifice pe vectori (array)
+b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil 
+c. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente
+ 
+Legat de modelarea relaţiilor M:N în MongoDB prin imbricarea documentelor, care din următoarele aserţiuni NU este adecvată?
+a. Se realizează prin documente încuibărite, de preferinţă cele cu cardinalitate mai mică în cadrul celor cu cardinalitate mai mare (Ex. profesori în cadrul studenţilor)
+b. Apar probleme cu duplicatele şi inconsistenţa
+c. Se realizează prin documente încuibărite, de preferinţă cele cu cardinalitate mai mare în cadrul celor cu cardinalitate mai mică (Ex. studenţi în cadrul profesorilor)
+ 
+Legat de modelarea relaţiilor 1:N în MongoDB, încubărirea colecţiei „mai mulţi” în colecţia „unu” (ex. Produse încuibărite în Categorii), care din următoarele aserţiuni NU este adecvată?
+a. Nu este o variantă acceptabilă în cazul în care colecţia „mai mulţi” are multe documente
+b. Este o variantă acceptabilă, însă redundanţa poate fi mare, deci şi pericolul inconsistenţei bazei de date creşte considerabil 
+c. Actualizările implică şi operaţii specifice pe vectori (array)
+ 
+Recompunerea relaţiei iniţiale fragmentată mixt, se realizează prin operatorul de:
+a. Reuniune şi restricţie
+b. Uniune şi reuniune
+c. Proiecţie şi uniune 
+d. Restricţie şi proiecţie
+ 
+„Procedeul de spargere a relaţiilor utilizate într-un sistem distribuit prin operaţiuni relaţionale de proiecţie şi selecţie controlate, în vederea plasării partiţiilor rezultate în locul în care sunt cel mai frecvent solicitate datele pe care le conţin.” Aceasta este definiţia pentru:
+a. Replicare
+b. Persistenţă
+c. Blocare
+d. Fragmentare
+ 
+Serviciul de replicare în MongoDB este controlat de …
+a. mongos
+b. mongod
+c. mongop
+d. mongo 
+e. mongom
+f. mongor
+ 
+Clientul de baze de date MongoDB este …
+a. mongod 
+b.mongo
+c. mongos
+d. mongor
+e. mongop
+f. mongom
+ 
+Gestiunea partițiilor orizontale în MongoDB sunt gestionate de către serviciul:
+a. mongop.exe
+b. mongod.exe 
+c. mongos.exe
+d. mongo.exe
+ 
+Următoarele interogări sunt echivalente? (TRUE=DA, FALSE=NU)
+SELECT Student, Examen, Nota FROM Student S, Examen E, Nota N
+               WHERE S.Matricol = N.Matricol AND
+                                  E.CodMat = N.CodMat AND
+                                  Nota > 8 AND
+                                   CodMat BETWEEN 50 AND 59;
+SELECT Student, Examen, Nota FROM (Student S INNER JOIN Nota N ON S.Matricol = N.Matricol) INNER JOIN Examen E ON E.CodMat = N.CodMat
+               WHERE  Nota > 8 AND
+                                   CodMat BETWEEN 50 AND 59;
+SELECT Student, Examen, Nota FROM (Examen E INNER JOIN Nota N ON E.CodMat = N.CodMat) OUTER JOIN Student S ON S.Matricol = N.Matricol
+               WHERE Nota > 8 AND
+                                   CodMat BETWEEN 50 AND 59;
+True 
+False
+ 
+Conceptul de Big Data are la bază caracteristicile cunoscute sub acronimul
+a. 4V 
+b. BDB
+c. 4B
+d. 5V
+e. 4D
+ 
+Dezvoltarea de sisteme SGBDOO NU se poate realiza prin următoarea metodă:
+a. Încapsularea construcţiilor specifice unui limbaj obiectual într-un SGBDR 
+b. Extinderea unui limbaj de date convenţional cu facilităţi obiectuale
+c. Crearea unei extensii spre baze de date pentru un limbaj de programare OO
+d. Punerea la dispoziţie a unor biblioteci pentru gestiunea bazelor de date
+e. Proiectarea din temelii a unui limbaj de gestiune a bazelor de date
+f. Încapsularea construcţiilor specifice bazelor de date obiectuale într-un limbaj gazdă
+ 
+Care din următoarele comenzi deschide serverul de baze de date, pe baza de date din directorul D:\MongoData?
+a. D:\MongoDB\bin\mongos.exe --dbpath D:\MongoData
+b. D:\MongoDB\bin\mongo.exe --dbpath D:\MongoData 
+c. D:\MongoDB\bin\mongod.exe --dbpath D:\MongoData
+ 
+Care din următoarele comenzi MongoDB afişează în format BSON documentele găsite?
+a. db.catedra.find().BSON()
+b. db.catedra.pretty().find()
+c. db.catedra.show().pretty() 
+d. db.catedra.find().pretty()
+e. db.catedra.show().BSON()
+ 
+Ce face comanda db.catedra.drop() în MongoDB?
+a. Şterge baza de date intitulată „catedra” 
+b. Şterge toate documentele din colecţia intitulată „catedra”
+c. Şterge documentul intitulat „catedra”
+d. Şterge ultimul document din colecţie intitulată „catedra”
+e. Şterge întreaga colecţie intitulată „catedra”
+ 
+Care din următoarele comenzi MongoDB NU va insera un document cu exact 2 perechi cheie-valoare?
+a. db.catedra.insert({denumire:'Informatica Economica', _id:100})
+b. db.catedra.insert({_id:100, denumire:'Informatica Economica'})
+c. db.catedra.insert({id:100, denumire:'Informatica Economica'})
+d. db.catedra.insert({denumire:'Informatica Economica'})
+ 
+Ce înseamnă în PL/SQL următoarea reprezentare?
+<<parinte>>
+a. Se foloseşte pentru comentarii
+b. S-a etichetat un bloc, cu numele „parinte” 
+c. Nu există o astfel de construcţie
+d. Se folosşte în atribuiri, expresii de tip text, în cadrul cărora există deja caracterele apostrof (’) şi ghilimele (”)
+ 
+Care este efectul comenzii db.colectie.insertMany([{"_id":"tt9eijdskd", ...}, { …} , … ]) în MongoDB?
+a. nu există comanda insertMany 
+b. va introduce toate documentele până la primul duplicat de _id
+c. va introduce toate documentele, cu excepţia duplicatelor de _id
+ 
+Care este efectul comenzii db.colectie.insertMany(I(" id":"tt9eijdskd", ..), (...) , ... ]) in
+MongoDB?
+a. nu existà comanda insertMany
+b. va introduce toate documentele pânà la primul duplicat de _id
+c. va introduce toate documentele, cu exceptia duplicatelor de id
+ 
+Care din următoarele nu este un motor de stocare pentru o bază de date MongoDB?
+a. MMAPv1 Storage Engine 
+b. WiredFire Storage Engine
+c. WiredTiger Storage Engine
+ 
+Care din următoarele reguli ale fragmentării este încălcată parţial la fragmentarea verticală?
+a. Caracterul disjunct
+b. Completitudinea
+c. Contingentarea 
+d. Refacerea relaţiei iniţiale
+ 
+Care din următoarele comenzi MongoDB poate crea colecţia catedra?
+a. db.createCollection({“catedra”}) 
+b. db.catedra.createCollection()
+c. db.catedra.create()
+d. db.catedra.insert({denumire:'Informatica Economica', anul_inf:'1991',localizare:'etaj 4'}
+ 
+In PL/SQL, o funcţie/procedură poate să aibă următorul privilegiu-obiect:
+a. CREATE
+b. UPDATE
+c. EXECUTION
+d. ALTER
+e. PROCEDURE
+f. EXECUTE
+ 
+In PL/SQL, care din următoarele afirmaţii legate de blocurile IF este adevărată?
+a. Poate să aibă mai multe ramuri ELSIF 
+b. Trebuie să aibă o ramură ELSE şi numai una
+c. Trebuie să aibă neapărat mai multe ramuri ELSIF
+d. Poate să aibă mai multe ramuri ELSE
+ 
+In PL/SQL acest obiect trebuie să returneze un parametru şi numai unul
+a. Funcţia
+b. Procedura
+c. Blocul anonim
+d. Cursorul implicit
+e. Declanşatorul
+ 
+In PL/SQL, o procedură cu numele ACTUALIZARE, se poate executa în felul următor:
+Select one:
+a. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)
+b. BEGIN
+ACTUALIZARE;   !!atentie DACA e doar UN rsapuns il alegi pe asta
+END; 
+c. X:= ACTUALIZARE
+d. UPDATE pe tabela pentru care a fost creat
+ 
+In PL/SQL, un declanşator cu numele ACTUALIZARE, se poate executa în felul următor:
+a. X:= ACTUALIZARE 
+b. BEGIN
+ACTUALIZARE;
+END;
+c. UPDATE pe tabela pentru care a fost creat
+d. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)
+ 
+In PL/SQL, o funcţie cu numele ACTUALIZARE, se poate executa în felul următor:
+a. UPDATE pe tabela pentru care a fost creat
+b. BEGIN
+ACTUALIZARE;
+END; 
+c. DBMS_OUTPUT.PUT_LINE(ACTUALIZARE)
+ 
+Fragmentarea verticală are la bază operatorul de:
+a. Proiecţie
+b. Restricţie 
+c. Conjuncţie
+d. Disjuncţie
+e. Discreţie
+f. Negaţie
+ 
+Caracteristica bazelor de date distribuite potrivit căreia utilizatorul trebuie s-o perceapă ca făcând parte dintr-o singură bază de date globală – la fel ca şi în cazul bazelor de date locale sau centralizate – poartă numele de:
+a. Fragmentare
+b. Alocare
+c. Integrarea fizică 
+d. Integrarea logică
+ 
+Pietele de date (Data Marts) sunt
+a. submulțimi ale depozitelor de date, particularizate în vederea îndepliniri nevoilor unui departament sau care acoperă un subiect
+b. componente de bază ale unui system distribuit
+c. locul de intalnire al cererii cu oferta de date
+d. supramulțimi ale depozitelor de date, specializate in vederea indepliniru nevoilor unei organizații sau care acoperă un subiect
+ 
+Care din următoarele nu este o categorie de baze de date NoSQL?
+a. Graf
+b. Document databases 
+c. Column-Oriented databases
+d. Key-/Value-stores
+e. Row-Oriented databases
+ 
+La proiectarea unei aplicaţii pe o bază de date MngoDB, care ar fi cea mai potrivită abordare în ceea ce priveşte design-ul bazei de date?
+a. mai multe colecţii, dar documentele dintr-o anumită colecţie ar trebui să aibă o structură similară, dar aceeaşi pentru fiecare versiune a aplicaţiei
+b. MongoDB nu impune o schemă prestabilită, aşa că proiectantul bazei de date are libertate totală 
+c. toate tabelele normalizate să fie transpuse în cadrul unei singure colecţii, pentru eficientizarea accesului la nivel de document
+d. transpunerea tabelelor dintr-o bază de date normalizată în colecţii, fără modificări de design
+ 
+Care din următoarele NU reprezintă o motivaţie suficientă pentru apariţia bazelor de date NoSQL?
+a. Aplicaţii cu audienţă limitată ce nu putea fi distribuite ca servicii pe cale largă
+b. Migrarea de la aplicaţiile cu baze de date monolit către arhitecturi descentralizate
+c. Volume mari de date cu creştere dinamică, structurate, semistructurate, nestructurate şi polimorfice
+d. Sistemele de baze de date relaţionale pu puneau accent pe consistenţa datelor, fiind un motiv suficient pentru înlocuirea lor 
+e. Finalul erei aplicaţiilor costisitoare ca timp, cu proiectare în cascadă, cu ciclu de dezvoltare de 1-1,5 ani, în detrimentul celor “agile”
+ 
+Care din următoarele afirmaţii nu este valabilă atunci când vorbim despre partiţionare în MongoDB?
+a. Poate exista un singur proces mongos.exe
+b. Mongos.exe - gestionează shard-urile
+c. Mongos.exe face legătura cu mai multe servere (mongod), dintre care unul deţine informaţii legate de celelalte servere
+d. dacă s-a facut interogarea după cheia de partiţionare, atunci mongos va direcţiona cererea doar către acel nod care conţine partiţia aferentă
+ 
+Care din următoarele NU reprezintă o etapă a procesării interogărilor în cadrul sistemelor de baze de date distribuite?
+a. Localizarea datelor
+b. Analiza cererii globale
+c. Optimizarea cererilor locale
+d. Optimizarea cererilor globale 
+e. Descompunerea interogărilor
+ 
+Care din următoarele afirmaţii nu este valabilă atunci când vorbim despre partiţionare în MongoDB?
+a. Poate exista un singur proces mongos.exe 
+b. dacă s-a facut interogarea după cheia de partiţionare, atunci mongos va direcţiona cererea doar către acel nod care conţine partiţia aferentă
+c. Mongos.exe face legătura cu mai multe servere (mongod), dintre care unul deţine informaţii legate de celelalte servere
+d. Mongos.exe - gestionează shard-urile
+ 
+Care din următoarele NU este un avantaj al sistemelor de baze de date distribuite?
+a. Caracterul partajabil şi autonomia locală
+b. Dezvoltare modulară
+c. Gestiunea interogărilor 
+d. Structura organizaţională
+e. Disponibilitate şi fiabilitate crescute
+f. Performanţe îmbunătăţite
+ 
+Care din următoarele NU este un dezavantaj al sistemelor de baze de date distribuite, în raport cu cele centralizate?
+a. Lipsa de standarde
+b. Complexitatea 
+c. Dezvoltare modulară
+d. Securitatea
+ 
+Care din următoarele NU reprezintă reguli de verificare a fragmentării?
+a. Alocarea fragmentării
+b. Persistenţa fragmentării
+c. Consistenţa fragmentării
+d. Refacerea relaţiei iniţiale
+ 
+Care din următoarele NU reprezintă o motivaţie suficientă pentru apariţia bazelor de date NoSQL?
+a. Aplicaţii cu audienţă limitată ce nu putea fi distribuite ca servicii pe cale largă
+b. Volume mari de date cu creştere dinamică, structurate, semistructurate, nestructurate şi polimorfice
+c. Migrarea de la aplicaţiile cu baze de date monolit către arhitecturi descentralizate
+d. Finalul erei aplicaţiilor costisitoare ca timp, cu proiectare în cascadă, cu ciclu de dezvoltare de 1-1,5 ani, în detrimentul celor “agile”
+e. Sistemele de baze de date relaţionale pu puneau accent pe consistenţa datelor, fiind un motiv suficient pentru înlocuirea lor
+ 
+Care din următoarele caracteristici NU este specifică pentru ObjectId, din cadrul documentelor colecţiilor MongoDB?
+a. este şir de 12 bytes în hexazecimal
+b. permite descoperirea momentului în care s-a creat documentul
+c. se foloseşte pentru cheia „_id”, în vederea garantării unicităţii 
+d. este obligatoriu să se utilizeze pentru cheile „_id” din cadrul documentelor
+ 
+Care din următoarele NU reprezintă un neajunsuri ale sistemelor de baze de date centralizate?
+a. Rezolvarea problemei accesului concurrent
+b. Distanţa acceselor
+c. Numar scazut de accese concomitente
+d. Numărul mare de noduri centrale
+ 
+Bazele de date NoSQL
+a. –       stochează date relaţionale
+b. –       nu au probleme legate de consistenţa datelor
+c. –       nu posedă sistem de gestiune a versiunilor
+d. –       nu au schema
+ 
+Metoda ROWA (Read-One-Write-All) este specifică următorului protocol:
+a. Protocolul de zăvorâre al majorităţii
+b. Protocolul 2PL de copie primară
+c. Protocolul 2PL sincron 
+d. Protocolul 2PL centralizat
+e. Protocolul 2PL distribuit
+ 
+Comanda rs.slaveOk() din MongoDB are ca efect:
+a. permite efectuarea citirilor si de pe nodurile secundare
+b. transformarea nodului curent în nod secundar
+c. transformă nodul secundar în nod primar
+d. permite utilizarea de noduri secundare în cadrul unui set de replici
+
+Care este rezultatul execuţiei următoarei comenzi MongoDB?
+db.catedra.remove()
+a. Şterge ultimul document din colecţie intitulată „catedra”
+b. Şterge întreaga colecţie intitulată „catedra” 
+c. Returnează eroare
+d. Şterge documentul intitulat „catedra”
+e. Şterge baza de date intitulată „catedra”
+f. Şterge toate documentele din colecţia intitulată „catedra”
+ 
+Intr-o interogare MongoDB, rolul operatorului $pullAll este de a …
+a. sterge toate valorile care se potrivesc dintr-o lista 
+b. adaugă un element unei liste
+c. adaugă mai multe elemente unei liste
+d. sterge primul sau ultimul element din listă
+ 
+In imaginea de mai sus, avem înfăţişată o arhitectură de referinţă:
+a. a unui sistem de baze de date distribuite
+b. a unui sistem de baze de date centralizate
+c. a unui sistem de baze de date federative 
+d. ANSI/SPARC
+ 
+Făcând o comparaţie între modelul de date relaţional şi cel obiectual, termenul corespondent pentru tuplu este:
+a. Relaţia
+b. Atributul
+c. Obiectul 
+d. Clasa
+e. Identificatorul de obiect
+ 
+In cadrul unui sistem de baze de date distribuite, alocarea NU poate fi:
+a. Distribuită
+b. Neredundantă 
+c. Redundanta
+ 
+ Fie următoarea structură:
+Angajat
+{
+               "_id": ObjectId("100000000000000000000000"),
+               marca: 1,
+               nume: 'Pop',
+               prenume: 'Ion',
+               salariu: 1500
+},…
+Potriviţi termenii de mai jos:
+
+“Pop” este
+Answer 1    valoare
+Angajat este 
+
+Answer 2    colectia 
+“nume” este 
+Answer 3    cheie
+Ceea ce avem între acolade reprezintă
+Answer 4    documentul 
+"_id" este 
+Answer 5    identificatorul de obiect 
+
+ 
+Care din urmatoarele NU reprezinta un neajunsuri ale sistemelor de baze de date centralizate?
+a. Rezolvarea problemei accesului concurent
+b. „Distanta” acceselor
+c. Numar scazut de accese concomitente
+d. Numarul mare de noduri centrale
+ 
+Avantajele sistemelor de baze de date distribuite in raport cu cele centralizate, se refera la urmatoarele aspecte, dar NU si la:
+a. Dezvoltare modulara 
+b. Usurinta in exploatare
+c. Economie
+d. Performante imbunatatite
+ 
+In cadrul arhitecturii de referinta a unui sistem distribuit NU avem urmatoarea schema:
+a. schema conceptuala locala
+b. schema minterm
+c. schema de transformare
+d. schema conceptuala globala
+ 
+Care este nivelul de replicare in cadrul unui sistem de baze de date distribuite ce are urmatoarele caracteristici?
+Cel mai scazut cost al stocarii. Nu ofera fiabilitate si nici disponibilitate prea ridicate. Caracterul local al referintei este la un nivel acceptabil. Costurile de comunicatie - moderate. Actualizarile si consultarile se fac eficient.
+a. Baze de date replicate partial sau selectiv
+b. Baze de date centralizate
+c. Baze de date partitionate, fragmentate sau nereplicate
+d. Baze de date replicate integral
+ 
+Identificatorul de obiect generat automat in MongoDB contine o serie de informatii, dar NU si:
+a. stampila timp
+b. Un identificator proces (PID)
+c. Adresa MAC a masinii de calcul
+d. Un contor
+e. Adresa IP a masinii de calcul
+ 
+Care din urmatoarele metode reprezinta o metoda de proiectare a alocarii in cadrul bazelor de date distribuite?
+a. Metoda alocarii progresive
+b. Metoda replicarii integrale
+c. Metoda partitionarii
+d. Metoda distribuirii
+ 
+Desenul de mai sus este reprezentarea intuitiva a unui/unei:
+a. Sistem cu prelucrare distribuita
+b. Sistem de baze de date distribuite 
+c. Retele de calculatoare metropolitane
+d. Baze de date locale
+ 
+Legat de modelarea relatiilor M:N in MongoDB prin imbricarea documentelor, care din urmatoarele asertiuni NU este adecvata?
+a. Apar probleme cu duplicatele si inconsistenta
+b. Se realizeaza prin documente incuibarite, de preferinta cele cu cardinalitate mai mica in cadrul celor cu cardinalitate mai mare (Ex. profesori in cadrul studentilor)
+c. Se realizeaza prin documente incuibarite, de preferinta cele cu cardinalitate mai mare in cadrul celor cu cardinalitate mai mica (Ex. studenti in cadrul profesorilor)
