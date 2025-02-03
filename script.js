@@ -5,13 +5,33 @@ const resultsContainer = document.getElementById('resultsContainer');
 const pageTitle = document.querySelector('h1');
 
 let currentFile = subjectDropdown.value.split('|')[0]; // Extract initial file
-let currentSubject = subjectDropdown.value.split('|')[1]; // Extract initial subject name
+let currentSubject = subjectDropdown.value.split('|')[1]; // Extract initial subject name;
+
+const darkModeToggle = document.getElementById('darkModeToggle');
+
+// Check if user has dark mode enabled in local storage
+if (localStorage.getItem('darkMode') === 'enabled') {
+    document.body.classList.add('dark-mode');
+    darkModeToggle.classList.add('dark-mode');
+}
+
+// Function to toggle dark mode
+darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    darkModeToggle.classList.toggle('dark-mode');
+
+    // Save preference in local storage
+    if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('darkMode', 'enabled');
+    } else {
+        localStorage.setItem('darkMode', 'disabled');
+    }
+});
 
 // Update the page title based on the subject
 function updateTitle(subjectName) {
   pageTitle.innerHTML = `Bafta! - <span class="subject-title">${subjectName}</span>`;
 }
-
 
 // Function to fetch and parse the file
 function fetchFile(filePath) {
@@ -48,7 +68,6 @@ function parseData(rawData) {
 
 // Set up the search functionality
 function setupSearch(questionsData) {
-  // Render search results
   function renderResults(filteredQuestions) {
     resultsContainer.innerHTML = '';
     if (filteredQuestions.length === 0) {
@@ -77,7 +96,7 @@ function setupSearch(questionsData) {
 
         resultsContainer.appendChild(resultDiv);
     });
-}
+  }
 
   // Handle input change
   searchInput.addEventListener('input', (event) => {
@@ -86,6 +105,15 @@ function setupSearch(questionsData) {
       item.question.toLowerCase().includes(searchTerm)
     );
     renderResults(filteredQuestions);
+
+    // Show the "Clear" button if input has text
+    if (searchInput.value.trim() !== "") {
+      pasteButton.textContent = 'Clear';
+      pasteButton.classList.add('clear');
+    } else {
+      pasteButton.textContent = 'Paste';
+      pasteButton.classList.remove('clear');
+    }
   });
 
   // Initial render (empty)
@@ -99,8 +127,6 @@ pasteButton.addEventListener('click', async () => {
       const text = await navigator.clipboard.readText();
       searchInput.value = text;
       searchInput.dispatchEvent(new Event('input')); // Trigger input event to update results
-      pasteButton.textContent = 'Clear';
-      pasteButton.classList.add('clear'); // Add the 'clear' class
     } catch (err) {
       console.error('Failed to paste text: ', err);
       alert('Unable to paste text. Please allow clipboard permissions.');
@@ -108,8 +134,6 @@ pasteButton.addEventListener('click', async () => {
   } else {
     searchInput.value = ''; // Clear the input field
     searchInput.dispatchEvent(new Event('input')); // Trigger input event to update results
-    pasteButton.textContent = 'Paste';
-    pasteButton.classList.remove('clear'); // Remove the 'clear' class
   }
 });
 
