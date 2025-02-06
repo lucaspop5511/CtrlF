@@ -85,12 +85,13 @@ body {
   
   .result {
     background: #fff;
-    margin: 10px 0;
+    margin: 8px 0;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     cursor: pointer;
     position: relative;
+    box-shadow: -3px 3px rgba(143, 143, 143, 0.594);
   }
   
   .result:hover {
@@ -102,10 +103,10 @@ body {
     margin-top: 10px;
     padding: 10px;
     background: #f9f9f9;
-    border-top: 1px solid #ddd;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
     list-style-type: disc;
     padding-left: 20px;
+    box-shadow: inset -2px 3px rgba(118, 118, 118, 0.594);
   }
   
   .answer.visible {

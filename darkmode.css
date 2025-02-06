@@ -41,19 +41,19 @@ h1.dark-mode:hover {
 body.dark-mode .search-container select {
     background-color: #333;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(160, 160, 160);
 }
 
 body.dark-mode .search-container input {
     background-color: #333;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(160, 160, 160);
 }
 
 body.dark-mode .search-container button {
     background-color: #444;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(160, 160, 160);
 }
 
 body.dark-mode .search-container button:hover {
@@ -66,7 +66,7 @@ body.dark-mode .search-container button:hover {
 body.dark-mode .result {
     background: #333;
     color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(95, 92, 84);
 }
 
 body.dark-mode .result:hover {
@@ -75,5 +75,4 @@ body.dark-mode .result:hover {
 
 body.dark-mode .answer {
     background: #222;
-    border-top: 1px solid white;
 }

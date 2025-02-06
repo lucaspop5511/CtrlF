@@ -1,0 +1,36 @@
+Lista simplu înlănțuită : C(
+struct Node {
+    int data; 
+    struct Node* next; 
+}; 
+void insert(struct Node** head, int newData) { 
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node)); 
+    newNode->data = newData; 
+    newNode->next = (*head); 
+    (*head) = newNode; 
+}
+)
+|| Pseudocod( 
+Definire structura Nod 
+Procedura INSERT( cap, valoare ) 
+    Alocare nou nod 
+    Setare valoare 
+    Legare la listă 
+    Actualizare cap 
+Sfarsit Procedura
+)
+Hash Table : C(
+#define TABLE_SIZE 100
+typedef struct { 
+    int key; 
+    int value; 
+} HashEntry; 
+HashEntry* hashTable[TABLE_SIZE];
+)
+|| Pseudocod(
+Definire tabel dispersie
+Procedura INSERT( cheie, valoare )
+    Calculeaza index
+    Insereaza în tabel
+Sfarsit Procedura
+)
