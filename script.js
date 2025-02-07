@@ -30,7 +30,7 @@ darkModeToggle.addEventListener('click', () => {
 
 // Update the page title based on the subject
 function updateTitle(subjectName) {
-  pageTitle.innerHTML = `Bafta! - <span class="subject-title">${subjectName}</span>`;
+  pageTitle.innerHTML = `Bafta! <span class="subject-title">${subjectName}</span>`;
 }
 
 // Function to fetch and parse the file
@@ -54,14 +54,49 @@ function parseData(rawData) {
   const questions = [];
   const lines = rawData.trim().split('\n');
 
-  lines.forEach(line => {
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i].trim();
+    if (line === "") continue; // Ignorăm liniile goale
+
     const splitIndex = line.indexOf(' : ');
-    if (splitIndex !== -1) {
-      const question = line.slice(0, splitIndex).trim();
-      const answers = line.slice(splitIndex + 3).split('||').map(answer => answer.trim());
-      questions.push({ question, answers });
+    if (splitIndex === -1) continue; // Linie invalidă, trecem la următoarea
+
+    const question = line.slice(0, splitIndex).trim();
+    let answerRaw = line.slice(splitIndex + 3); // Păstrăm spațiile și indentarea originală
+
+    // Verificăm dacă răspunsul este un bloc de cod (începe și se termină cu paranteze)
+    let isCodeBlock = answerRaw.startsWith('(');
+    let collectedLines = isCodeBlock ? [answerRaw] : [];
+
+    if (isCodeBlock) {
+      let openParens = 1; // Numărăm parantezele deschise
+      while (i + 1 < lines.length && openParens > 0) {
+        let nextLine = lines[++i];
+        collectedLines.push(nextLine);
+
+        // Actualizăm numărul de paranteze deschise și închise
+        openParens += (nextLine.match(/\(/g) || []).length;
+        openParens -= (nextLine.match(/\)/g) || []).length;
+      }
+      answerRaw = collectedLines.join('\n');
+
+      if (answerRaw.startsWith('(') && answerRaw.endsWith(')')) {
+        answerRaw = answerRaw.slice(1, -1).trim();
+      }
+
+      // Afișăm blocul de cod cu indentarea intactă
+      questions.push({ 
+        question, 
+        answers: [`<pre><code>${answerRaw.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code></pre>`] 
+      });
+      continue;
     }
-  });
+
+    // Dacă NU este bloc de cod, tratăm răspunsurile multiple separate prin `||`
+    const answerParts = answerRaw.split('||').map(part => `<li>${part.trim()}</li>`);
+
+    questions.push({ question, answers: answerParts });
+  }
 
   return questions;
 }
@@ -80,9 +115,8 @@ function setupSearch(questionsData) {
         resultDiv.className = 'result';
 
         // Generate the HTML for multiple answers
-        const answersHTML = item.answers
-            .map(answer => `<li>${answer}</li>`)
-            .join('');
+        const answersHTML = item.answers.join(''); // Deoarece răspunsurile sunt deja formatate în parseData()
+
 
         resultDiv.innerHTML = `
             <div class="question">${item.question}</div>
@@ -134,6 +168,7 @@ pasteButton.addEventListener('click', async () => {
   } else {
     searchInput.value = ''; // Clear the input field
     searchInput.dispatchEvent(new Event('input')); // Trigger input event to update results
+    searchInput.focus(); // Autofocus pe search input after clear
   }
 });
 
