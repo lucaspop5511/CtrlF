@@ -110,33 +110,38 @@ function setupSearch(questionsData) {
         return;
     }
 
+    // Actualizează numărul de rezultate
+    resultsCount.textContent = `Results found: ${filteredQuestions.length}`;
+
     filteredQuestions.forEach((item, index) => {
-        const resultDiv = document.createElement('div');
-        resultDiv.className = 'result';
+      const resultDiv = document.createElement('div');
+      resultDiv.className = 'result';
 
-        // Generate the HTML for multiple answers
-        const answersHTML = item.answers.join(''); // Deoarece răspunsurile sunt deja formatate în parseData()
+      const answersHTML = item.answers.join(''); // Deoarece răspunsurile sunt deja formatate
 
+      resultDiv.innerHTML = `
+          <div class="question">${item.question}</div>
+          <ul class="answer" id="answer-${index}">${answersHTML}</ul>
+      `;
 
-        resultDiv.innerHTML = `
-            <div class="question">${item.question}</div>
-            <ul class="answer" id="answer-${index}">${answersHTML}</ul>
-        `;
+      resultDiv.addEventListener('click', () => {
+          const answerDiv = resultDiv.querySelector('.answer');
+          answerDiv.classList.toggle('visible');
+      });
 
-        resultDiv.addEventListener('click', () => {
-            const answerDiv = resultDiv.querySelector('.answer');
-            answerDiv.classList.toggle('visible');
-        });
-
-        resultsContainer.appendChild(resultDiv);
-    });
+      resultsContainer.appendChild(resultDiv);
+  });
+  }
+  
+  function removeDiacritics(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Elimină diacriticele
   }
 
   // Handle input change
   searchInput.addEventListener('input', (event) => {
-    const searchTerm = event.target.value.toLowerCase();
+    const searchTerm = removeDiacritics(event.target.value.toLowerCase());
     const filteredQuestions = questionsData.filter(item =>
-      item.question.toLowerCase().includes(searchTerm)
+      removeDiacritics(item.question.toLowerCase()).includes(searchTerm)
     );
     renderResults(filteredQuestions);
 

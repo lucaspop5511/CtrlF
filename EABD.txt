@@ -86,6 +86,7 @@ Care dintre urmatoarele NU reprezinta operatii in cadrul cubului de date? : Defr
 Gestiunea partițiilor orizontale in MongoDB sunt gestionate de catre serviciul : mongos.exe
 Pe langa componentele subsistemului tranzactional al unui SGBD dintr-un sistem centralizat, in cel distribuit mai avem : Administratorul de tranzactii global
 Refacerea relatiei initiale din fragmente orizontale se face prin intermediul operatorului de : Reuniune
+Refacerea relatiei initiale din fragmente verticale se face prin intermediul operatorului de : Uniune
 Care va fi efectul comenzii db.colectie.find({an:{$gt 1990, $lt 1995}},{titlu:1, _id:0} ).pretty() in MongoDB? : Afişeaza doar titlul pentru publicatiile dintre anii 1991 şi 1994
 Care din urmatoarele nu reprezinta un beneficiu al limbajul PL/SQL? : Optimizarea blocurilor anonime
 intr-o interogare MongoDB, rolul operatorului $pullAll este de a : Sterge toate valorile care se potrivesc dintr-o lista
